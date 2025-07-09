@@ -1,0 +1,45 @@
+# Environnements virtuels
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Bases de données locales
+*.sqlite3
+*.db
+
+# Fichiers d'exécution
+*.pid
+
+# Fichiers sensibles
+*.env
+*.local
+config.yaml
+config.json
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Node.js
+node_modules/
+
+# Tests
+coverage/
+*.cover
+*.pycoverage
+htmlcov/
+
+# Temp
+*.bak
+*.swp
+*.tmp
