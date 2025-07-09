@@ -1,1 +1,1 @@
-# holbertonschool-web_front_end
+This repository contains advanced HTML exercises.
