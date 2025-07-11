@@ -1,20 +1,11 @@
-/* 18. Customizing the navbar */
 @import url('17-style.css');
 
-:root {
-  --nav-item-font-family: var(--font-family-title);
-  --nav-item-font-weight: var(--font-weight-bold);
-  --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: 0.4rem;
-  --nav-item-display: inline-block;
-  --nav-item-margin: 0 0 3rem 0;
-  --nav-item-link-hover: var(--color-primary);
-}
-
+/* Float navbar-menu to the right */
 .navbar-menu {
   float: right;
 }
 
+/* Reset margins and paddings, center text in nav */
 nav {
   margin: 0;
   padding: 0;
@@ -22,6 +13,18 @@ nav {
   text-align: center;
 }
 
+/* Custom properties */
+:root {
+  --nav-item-font-family: var(--font-family-title);
+  --nav-item-font-weight: var(--font-weight-bold);
+  --nav-item-font-size: var(--font-size-medium);
+  --nav-item-letter-spacing: 4%;
+  --nav-item-display: inline-block;
+  --nav-item-margin: 0 0 3rem 0;
+  --nav-item-link-hover: var(--color-primary);
+}
+
+/* nav-item styles */
 nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
@@ -31,11 +34,13 @@ nav .nav-item {
   margin: var(--nav-item-margin);
 }
 
+/* nav-link styles */
 nav .nav-link {
   display: block;
   padding: 0.5rem 1rem;
 }
 
+/* Hover effect */
 nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
