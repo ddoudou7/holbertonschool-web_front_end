@@ -1,5 +1,4 @@
 /* 18. Customizing the navbar */
-@import url('17-style.css');
 
 :root {
   --nav-item-font-family: var(--font-family-title);
