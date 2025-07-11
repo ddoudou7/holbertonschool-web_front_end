@@ -1,0 +1,9 @@
+/* Apply universal box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Existing html styles from 14-style.css should follow here */
+html {
+  scroll-behavior: smooth;
+}
