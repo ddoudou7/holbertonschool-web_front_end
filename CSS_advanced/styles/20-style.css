@@ -1,0 +1,8 @@
+/* 20. Clear the context of the grid */
+@import url('19-style.css');
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
