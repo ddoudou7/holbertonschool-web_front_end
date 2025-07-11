@@ -1,0 +1,8 @@
+/* 22. Add a dark theme to sections */
+@import url('21-style.css');
+
+[data-section-theme="dark"] {
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
+  background: var(--color-black);
+}
